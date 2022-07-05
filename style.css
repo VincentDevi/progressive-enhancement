@@ -34,6 +34,49 @@ q{
     border-left: 3px solid firebrick;
     padding-left: 30px;
     margin-top: 80px;
+    font-style: italic;
     
 }
+.farmer{
+    border-color: #ff0000;
 
+}
+.villager{
+    border-color: #009900;
+}
+body > header{
+    background-color: yellow;
+}
+.red{
+    color: red;
+    text-transform: capitalize;
+}
+.green{
+    color: green;
+    text-transform: capitalize;
+}
+.grey{
+    background-color: grey;
+}
+.white{
+    background-color: white;
+}
+#good{
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    padding-right: -30px;
+}
+#bad{
+    list-style-image: url(mal.png);
+}
+#cat{
+    list-style-image: url(chat.png);
+}
+.left{
+    float: left;
+    margin-right: 30px;
+}
+.right{
+    float: right;
+    margin-left: 30px;
+}
